@@ -1,23 +1,24 @@
 <html>
     <head>
         <title>Memory Game</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        <div>
+        <div id="outer">
             <div id="generate-mode">    
                 <h1>Generate the Number</h1>
-                <div id="number"></div>
+                <div id="number"></div><br>
                 <button id="generater" onclick="generateRandomNumber()">Generate</button>
             </div>
 
             <div id="guess-mode">
                 <h1>Guess the Number</h1>
-                <input type="text" id="guessed" /><br>
+                <input type="text" id="guessed" /><br><br>
                 <button id="bguess" onclick="guess()">Guess</button>
                 <button id="breplay" onclick="reguess()">replay</button>
             </div>
             
-            <div id="result"></div>
+            <br><div id="result"></div>
 
         </div>
         <script type="text/javascript" src="guess.js"></script>
