@@ -30,7 +30,7 @@ function guess(){
                 counter++;
             }
         }
-        if(counter == 7){
+        if(counter == 6){
             document.getElementById("result").innerHTML = `you guessed all right`;
         }else{
             document.getElementById("result").innerHTML = `you guessed ${counter} right`;
