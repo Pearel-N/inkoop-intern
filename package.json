@@ -1,0 +1,8 @@
+{
+  "name": "inkoop-intern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Pearel-N/inkoop-intern.git",
+  "author": "Pearel",
+  "license": "MIT"
+}
