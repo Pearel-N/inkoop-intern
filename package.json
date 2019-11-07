@@ -2,7 +2,18 @@
   "name": "inkoop-intern",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Pearel-N/inkoop-intern.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Pearel-N/inkoop-intern.git"
+  },
   "author": "Pearel",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pearel-N/inkoop-intern/issues"
+  },
+  "homepage": "https://github.com/Pearel-N/inkoop-intern#readme",
+  "description": "memory-game",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
