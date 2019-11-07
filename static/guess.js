@@ -8,7 +8,7 @@ if(localStorage.getItem("num") == undefined){
 
 //Generate button click
 function generateRandomNumber(){
-    let rn = Math.floor(Math.random() * (9999999 - 1000000) + 1000000) + 1;
+    let rn = Math.floor(Math.random() * (999999 - 100000) + 100000) + 1;
     localStorage.setItem("num", rn)
     document.getElementById("number").innerHTML = localStorage.getItem("num");
     document.getElementById("result").innerHTML = "refreshing in 5 seconds";
@@ -22,8 +22,8 @@ function guess(){
     let guess = String(document.getElementById("guessed").value);
     if(guess == ''){
         alert("please enter the number");
-    }else if(guess.length != 7){
-        document.getElementById("result").innerHTML = `Please enter 7 digits`;
+    }else if(guess.length != 6){
+        document.getElementById("result").innerHTML = `Please enter 6 digits`;
     }else{
         for(let i = 0; i < guess.length; i++){
             if(num[i] == guess[i]){
